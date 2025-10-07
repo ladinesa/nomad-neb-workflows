@@ -31,7 +31,7 @@ maintainers = [
 ]
 license = { file = "LICENSE" }
 dependencies = [
-    "nomad-lab>=1.2.2dev578",
+    "nomad-lab[infrastructure]>=1.2.2dev578",
     "nomad-schema-plugin-simulation-workflow>=1.0.10",
 ]
 
@@ -48,7 +48,9 @@ dev = [
     "pytest-timeout",
     "pytest-cov",
     "structlog",
-    "lxml_html_clean>=0.1.0"
+    "lxml_html_clean>=0.1.0",
+    "nomad-parser-plugins-atomistic>=1.0",
+    "nomad-parser-plugins-electronic>1.0",
 ]
 
 [tool.ruff]

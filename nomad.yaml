@@ -1,0 +1,7 @@
+keycloak:
+  realm_name: 'fairdi_nomad_test'
+
+fs:
+  tmp: '/tmp/volumes/tmp'
+  public: '/tmp/volumes/fs/public'
+  staging: '/tmp/volumes/fs/staging'

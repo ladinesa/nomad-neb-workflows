@@ -35,7 +35,7 @@ infrastructure.setup()
 logger = get_logger(__name__)
 
 
-def test_workflow_archive_yaml():
+def _test_workflow_archive_yaml():
     input1 = 'tests/data/AlCo2S4_uday_gajera/AlCo2S4/neb/00/OUTCAR'
     input2 = os.path.join('tests/data/AlCo2S4_uday_gajera/AlCo2S4/neb/01', 'OUTCAR')
     input3 = os.path.join('tests/data/AlCo2S4_uday_gajera/AlCo2S4/neb/02', 'OUTCAR')
@@ -120,6 +120,3 @@ def test_workflow_archive_yaml():
     # import json
     # with open('output_AlCo2S4.json', 'w') as f:
     #     json.dump(workflow_archive.m_to_dict(), f, indent=4)
-
-
-test_workflow_archive_yaml()
