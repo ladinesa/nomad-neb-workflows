@@ -120,6 +120,3 @@ def _test_workflow_archive_yaml():
     # import json
     # with open('output_AlCo2S4.json', 'w') as f:
     #     json.dump(workflow_archive.m_to_dict(), f, indent=4)
-
-
-test_workflow_archive_yaml()
