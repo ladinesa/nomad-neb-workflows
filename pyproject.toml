@@ -18,7 +18,7 @@ name = "nomad-neb-workflows"
 description = "A NOMAD plugin containing the section definitions of a standard Nudged Elastic Band (NEB) workflow."
 dynamic = ["version"]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 authors = [
     { name = "Julia Schumann", email = "julia.schumann@physik.hu-berlin.de" },
     { name = "Uday Gajera", email = "uday.gajera@physik.hu-berlin.de" },
