@@ -89,7 +89,7 @@ services:
       - --import-realm
       - --verbose
     ports:
-      - 8080:8080
+      - 8008:8008
       - 9000:9000
     healthcheck:
       interval: 10s

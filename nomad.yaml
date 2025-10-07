@@ -1,12 +1,7 @@
 keycloak:
-  server_url: 'http://localhost:8080/'
-  public_server_url: 'http://localhost:8080/'
   realm_name: 'fairdi_nomad_test'
-  username: 'admin'
-  password: 'password'
-client:
-  url: 'http://localhost:8000/fairdi/nomad/latest/api'
-  user: 'admin'
-  password: 'password'
+
 fs:
+  tmp: '/tmp/volumes/tmp'
+  public: '/tmp/volumes/fs/public'
   staging: '/tmp/volumes/fs/staging'
